@@ -1,0 +1,151 @@
+:root
+{
+    --brand-color: #2196F3;  
+    --main-color: #212121;
+    --secondary-color:#757575;
+    --white-color:#ffff;
+    --secondary-bcg-color:#2F303A;
+    --team-bcg-color:#F5F4FA;
+    
+}
+
+body{
+    color: var(--main-color);
+    background-color: var(--white-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+.link{
+    text-decoration: none;
+}
+.logo{
+    font-family: Raleway, sans-serif;
+    color: inherit;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo-word{
+    color: var(--brand-color);
+}
+.list{
+    list-style: none;  
+}
+.nav-item, .top-adress-item{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-item{
+    color: inherit;
+}
+.top-adress-item{
+    color: var(--secondary-color);
+}
+.nav-item:hover, .top-adress-item:hover, .top-adress-item:focus, .nav-item:focus{
+    color: var(--brand-color);
+}
+.title-section{
+    background-color: var(--secondary-bcg-color);
+    color: var(--white-color);
+}
+.main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button{
+    font-family: Roboto, sans-serif;
+}
+.order.button{
+    background-color: var(--brand-color);
+    color:inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.button:hover, .button:focus{
+    cursor: pointer;
+}
+.info-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+}
+.info-text{
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.section-team{
+    background-color: var(--team-bcg-color);
+}
+.member-name, .position{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.position{
+    color: var(--secondary-color);
+}
+.member-name{
+    font-weight: 500;
+}
+.bottom{
+    background-color: var(--secondary-bcg-color);
+    color: var(--white-color);
+}
+.bottom-adress-item{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: var(--white-color);
+    opacity: 60%;
+}
+.street{
+    opacity: 100%;
+}
+.active-page{
+    color: var(--brand-color);
+}
+.filter-button{
+    background-color: var(--team-bcg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.filter-button:hover, .filter-button:focus, .filter-button:active{
+   background-color: var(--brand-color);
+   color: var(--white-color);
+}
+.portfolio-project{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.type{
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
